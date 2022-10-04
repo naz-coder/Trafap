@@ -1,0 +1,68 @@
+.route input {
+  width: 20vw;
+  height: 4vh;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #aeb1b3;
+  font-weight: 900;
+  padding-bottom: 2px;
+  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+.route input::placeholder {
+  padding-left: 8px;
+  font-size: small;
+  color: #a7c4b9;
+}
+
+.route button {
+  width: 5vw;
+  height: 4.7vh;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid #008550;
+  background-color: #008550;
+  color: #ffffff;
+  font-weight: 900;
+  padding-bottom: 2px;
+  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.route button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  translate: 5s;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 960px) {
+  .route input {
+    width: 22vw;
+  }
+  .route input::placeholder {
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  .route button {
+    width: 6vw;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+  .route input {
+    width: 45vw;
+    height: 4vh;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .route button.hidden {
+    display: none;
+  }
+}
