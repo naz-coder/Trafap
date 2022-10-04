@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #b71d13;
+  background-color: #1f4690;
 }
 
 .nav_home img {
@@ -32,13 +32,13 @@
 }
 
 .nav_end ul li p {
-  color: #ffffff;
+  color: #ffe5b4;
   font-weight: 900;
 }
 
 .nav_end ul li p:hover {
   cursor: pointer;
-  color: #efb700;
+  color: #000000;
   translate: 5s;
 }
 
