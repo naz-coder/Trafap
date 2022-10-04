@@ -35,6 +35,14 @@ button:hover {
   }
 }
 
+@media (max-width: 375px) {
+  button {
+    width: 13vw;
+    height: 5vh;
+    background-color: #b71d13;
+    border: 1px solid #efb700;
+  }
+}
 @media (max-width: 320px) {
   button {
     width: 15vw;

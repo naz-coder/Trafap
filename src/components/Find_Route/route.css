@@ -55,6 +55,18 @@
 @media (max-width: 768px) {
 }
 
+@media (max-width: 375px) {
+  .route input {
+    width: 45vw;
+    height: 4vh;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .route button.hidden {
+    display: none;
+  }
+}
+
 @media (max-width: 320px) {
   .route input {
     width: 45vw;
