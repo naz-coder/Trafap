@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import Trafap_Logo from "../assets/images/Trafap_Logo.png";
 import Find_Route from "../Find_Route/route";
 import Signup from "../Button/Signup_Btn/signup_btn";
+import DropdownMenu from "../DropdownMenu/dropdown";
 
 const nav = () => {
   return (
     <div className="nav_home">
       <img src={Trafap_Logo} alt="Logo"></img>
-
       {/* <Link>
         <img src={TrafapLogo} alt="Logo"></img>
       </Link> */}
@@ -26,6 +26,7 @@ const nav = () => {
           </li>
         </ul>
       </div>
+      <DropdownMenu />
 
       {/* <div className="nav_end">
         <ul>

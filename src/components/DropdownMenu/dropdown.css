@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Josefin+Sans:wght@300&family=Zen+Kurenaido&display=swap");
+
+#mobile-menu {
+  display: none;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 960px) {
+}
+
+@media (max-width: 768px) {
+  #composition-button {
+    /* background-color: #000000; */
+    /* color: #ffe5b4; */
+    color: #000000;
+  }
+  #mobile-menu {
+    display: block;
+  }
+
+  #composition-menu {
+    background-color: #f1e7d3;
+    border-radius: 5px;
+  }
+
+  #login-menu {
+    background-color: #f1e7d3;
+    border-radius: 5px;
+    font-weight: 900;
+    font-family: "Archivo Narrow", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Zen Kurenaido", sans-serif;
+  }
+}
+
+@media (max-width: 425px) {
+}
+@media (max-width: 320px) {
+}

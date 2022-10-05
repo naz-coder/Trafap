@@ -47,9 +47,12 @@
 }
 
 @media (max-width: 768px) {
+  .nav_end {
+    display: none;
+  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .nav_home {
     padding: 10px 1px 10px 1px;
   }

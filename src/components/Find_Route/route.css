@@ -1,5 +1,5 @@
 .route input {
-  width: 20vw;
+  width: 25vw;
   height: 4vh;
   border-radius: 10px 0 0 10px;
   border: 1px solid #aeb1b3;
@@ -53,11 +53,20 @@
 }
 
 @media (max-width: 768px) {
+  .route input {
+    width: 50vw;
+    height: 4vh;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .route button.hidden {
+    display: none;
+  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .route input {
-    width: 45vw;
+    width: 55vw;
     height: 4vh;
     border-radius: 10px 10px 10px 10px;
   }
@@ -69,7 +78,7 @@
 
 @media (max-width: 320px) {
   .route input {
-    width: 45vw;
+    width: 55vw;
     height: 4vh;
     border-radius: 10px 10px 10px 10px;
   }

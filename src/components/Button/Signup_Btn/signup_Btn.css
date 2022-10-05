@@ -32,10 +32,13 @@ button:hover {
   button {
     width: 6vw;
     height: 5vh;
+    border: 1px solid #1f4690;
+    background-color: #f1e7d3;
+    color: #1f4690;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   button {
     width: 13vw;
     height: 4.5vh;
