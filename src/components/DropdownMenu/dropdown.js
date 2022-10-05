@@ -8,7 +8,7 @@ import Popper from "@mui/material/Popper";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
 import Stack from "@mui/material/Stack";
-import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Signup from "../Button/Signup_Btn/signup_btn";
 
 export default function MenuListComposition() {
@@ -64,7 +64,7 @@ export default function MenuListComposition() {
           aria-haspopup="true"
           onClick={handleToggle}
         >
-          <MenuRoundedIcon />
+          <AccountCircleIcon />
         </Button>
         <Popper
           open={open}
