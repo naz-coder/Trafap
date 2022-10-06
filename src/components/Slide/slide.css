@@ -1,0 +1,111 @@
+.slide {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.cards_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.cards_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  /* width: 15vw;
+  height: 34vh; */
+  width: 13rem;
+  height: 13rem;
+  border: 1.5px solid #efb700;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  background-color: #efb700;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.location {
+  border: 1.5px solid #ffffff;
+  border-radius: 10px;
+  padding-bottom: 4px;
+  margin-top: 1px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 12px;
+  color: #1f4690;
+}
+
+.traffic_status {
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.card input {
+  width: 13vw;
+  height: 4vh;
+  border-radius: 7px;
+  border: 1px solid #aeb1b3;
+  padding-bottom: 2px;
+  margin-top: 13px;
+  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.card input::placeholder {
+  padding-left: 8px;
+  font-size: medium;
+  color: #bdc2ca;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 960px) {
+  .card input {
+    width: 17vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards_top,
+  .cards_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  .card {
+    align-self: center;
+  }
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 320px) {
+}

@@ -5,10 +5,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #1f4690;
-  box-shadow: 10px 10px 15px #f4f4f4;
-  /* -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav_home img {

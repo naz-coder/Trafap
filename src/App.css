@@ -5,12 +5,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Josefin+Sans:wght@300&family=Zen+Kurenaido&display=swap");
 
-body {
+.container {
   margin: 0;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
   font-family: "Zen Kurenaido", sans-serif;
+  overflow: hidden;
+
   /* overflow: scroll; */
   /* background-color: #f0ecf5; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
