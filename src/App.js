@@ -8,7 +8,6 @@ function App() {
     <div className="container">
       <Nav_Home />
       <Home />
-      <h1>Testing</h1>
     </div>
   );
 }
