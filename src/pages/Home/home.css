@@ -23,7 +23,7 @@
 }
 
 .flex_left h3 {
-  width: 28rem;
+  width: 38vw;
   font-size: 35px;
   font-weight: 900;
   color: #ffffff;
@@ -137,18 +137,24 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 27px;
-    padding-left: 25px;
+    padding-left: 32px;
+  }
+
+  .flex_left h3 {
+    width: 40vw;
+    font-size: 24px;
+    font-weight: 900;
   }
 
   .flex_right input {
-    width: 40vw;
+    width: 38vw;
     height: 6vh;
     margin-top: -180px;
     /* margin-top: -12rem; */
   }
 
   .home_btn {
-    width: 40vw;
+    width: 38vw;
     height: 6vh;
   }
 }
@@ -161,6 +167,10 @@
 
   .flex_right {
     padding-left: 25px;
+  }
+
+  .flex_left h3 {
+    width: 70vw;
   }
 
   .flex_right input {
@@ -179,11 +189,11 @@
 @media (max-width: 320px) {
   .hero {
     padding-top: 120px;
-    height: 55vh;
+    height: 50vh;
   }
 
   .flex_left h3 {
-    width: 14rem;
+    width: 88vw;
     font-size: 24px;
     font-weight: 900;
   }
