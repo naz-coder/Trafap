@@ -104,18 +104,18 @@
   }
 
   .card input {
-    width: 25vw;
+    width: 45vw;
   }
 }
 
 @media (max-width: 425px) {
   .card input {
-    width: 27vw;
+    width: 47vw;
   }
 }
 
 @media (max-width: 320px) {
   .card input {
-    width: 30vw;
+    width: 50vw;
   }
 }
