@@ -189,7 +189,7 @@
 @media (max-width: 320px) {
   .hero {
     padding-top: 120px;
-    /* height: 30vh; */
+    height: 50vh;
   }
 
   .flex_left h3 {
