@@ -110,11 +110,11 @@
 
 @media (max-width: 768px) {
   .foot_item input {
-    width: 20vw;
+    width: 25vw;
   }
 
   .foot_item button {
-    width: 8vw;
+    width: 12vw;
     padding-bottom: 2px;
   }
 
@@ -133,11 +133,11 @@
 
 @media (max-width: 425px) {
   .foot_item input {
-    width: 30vw;
+    width: 35vw;
   }
 
   .foot_item button {
-    width: 13vw;
+    width: 15vw;
     padding-bottom: 2px;
     font-size: 12px;
   }
@@ -145,11 +145,11 @@
 
 @media (max-width: 320px) {
   .foot_item input {
-    width: 38vw;
+    width: 43vw;
   }
 
   .foot_item button {
-    width: 16vw;
+    width: 20vw;
     font-size: 12px;
   }
 }
