@@ -102,10 +102,20 @@
   .card {
     align-self: center;
   }
+
+  .card input {
+    width: 25vw;
+  }
 }
 
 @media (max-width: 425px) {
+  .card input {
+    width: 27vw;
+  }
 }
 
 @media (max-width: 320px) {
+  .card input {
+    width: 30vw;
+  }
 }
