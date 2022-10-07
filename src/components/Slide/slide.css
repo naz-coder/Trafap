@@ -38,8 +38,8 @@
 .card {
   /* width: 15vw;
   height: 34vh; */
-  width: 13rem;
-  height: 13rem;
+  width: 14rem;
+  height: 14rem;
   border: 1.5px solid #e9ebec;
   border-radius: 10px;
   margin-bottom: 3rem;
@@ -139,9 +139,6 @@
 
 /* MEDIA QUERY */
 @media (max-width: 960px) {
-  .card input {
-    width: 17vw;
-  }
 }
 
 @media (max-width: 768px) {
@@ -157,7 +154,7 @@
     height: 34vh; */
     align-self: center;
     width: 20rem;
-    height: 15rem;
+    height: 16.5rem;
     margin-bottom: 3rem;
   }
 

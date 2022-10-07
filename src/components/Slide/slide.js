@@ -20,7 +20,14 @@ const slide = () => {
           </div>
           <p className="time_updated">10:00am</p>
           <p className="date_updated">06/10/2022</p>
-          <p className="user_name">By Uche Felix</p>
+          <div className="traffic_height">
+            <p className="traffic_description">Description: </p>
+            <p className="traffic_reason">Road Construction</p>
+          </div>
+          <div className="traffic_height">
+            <p className="update_by">Updated By: </p>
+            <p className="user_name">Uche Felix</p>
+          </div>
           <div className="user_action">
             {/* <div action_flex_left>
               <MapsUgcIcon />
@@ -44,7 +51,14 @@ const slide = () => {
           </div>
           <p className="time_updated">12:01pm</p>
           <p className="date_updated">06/10/2022</p>
-          <p className="user_name">By Amara Ugwu</p>
+          <div className="traffic_height">
+            <p className="traffic_description">Description: </p>
+            <p className="traffic_reason">Wrong Parking</p>
+          </div>
+          <div className="traffic_height">
+            <p className="update_by">Updated By: </p>
+            <p className="user_name">By Amara Ugwu</p>
+          </div>
           <div className="user_action">
             {/* <div action_flex_left>
               <MapsUgcIcon />
@@ -68,7 +82,14 @@ const slide = () => {
           </div>
           <p className="time_updated">06:12am</p>
           <p className="date_updated">06/10/2022</p>
-          <p className="user_name">By Karima Abdul</p>
+          <div className="traffic_height">
+            <p className="traffic_description">Description: </p>
+            <p className="traffic_reason">Road Accicent</p>
+          </div>
+          <div className="traffic_height">
+            <p className="update_by">Updated By: </p>
+            <p className="user_name">By Karima Abdul</p>
+          </div>
           <div className="user_action">
             {/* <div action_flex_left>
               <MapsUgcIcon />
@@ -94,7 +115,14 @@ const slide = () => {
           </div>
           <p className="time_updated">11:45am</p>
           <p className="date_updated">06/10/2022</p>
-          <p className="user_name">By Kelina Oghene</p>
+          <div className="traffic_height">
+            <p className="traffic_description">Description: </p>
+            <p className="traffic_reason">Check Point</p>
+          </div>
+          <div className="traffic_height">
+            <p className="update_by">Updated By: </p>
+            <p className="user_name">By Kelina Oghene</p>
+          </div>
           <div className="user_action">
             {/* <div action_flex_left>
               <MapsUgcIcon />
@@ -118,7 +146,14 @@ const slide = () => {
           </div>
           <p className="time_updated">07:30am</p>
           <p className="date_updated">06/10/2022</p>
-          <p className="user_name">By Naza Agada</p>
+          <div className="traffic_height">
+            <p className="traffic_description">Description: </p>
+            <p className="traffic_reason">Bad Road</p>
+          </div>
+          <div className="traffic_height">
+            <p className="update_by">Updated By: </p>
+            <p className="user_name">By Naza Agada</p>
+          </div>
           <div className="user_action">
             {/* <div action_flex_left>
               <MapsUgcIcon />
@@ -142,7 +177,14 @@ const slide = () => {
           </div>
           <p className="time_updated">09:10pm</p>
           <p className="date_updated">06/10/2022</p>
-          <p className="user_name">By Hajara Anthony</p>
+          <div className="traffic_height">
+            <p className="traffic_description">Description: </p>
+            <p className="traffic_reason">Political Rally</p>
+          </div>
+          <div className="traffic_height">
+            <p className="update_by">Updated By: </p>
+            <p className="user_name">By Hajara Anthony</p>
+          </div>
           <div className="user_action">
             {/* <div action_flex_left>
               <MapsUgcIcon />
