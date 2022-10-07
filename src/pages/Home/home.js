@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import Slide from "../../components/Slide/slide";
 import Footer from "../../components/Footer/footer";
+import Btn_Glob from "../../components/Button/Btn_Glob/btn";
 
 const home = () => {
   return (
@@ -20,6 +21,7 @@ const home = () => {
         </div>
       </div>
       <Slide />
+      <Btn_Glob />
       <Footer />
     </div>
   );
