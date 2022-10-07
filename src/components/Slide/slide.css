@@ -188,13 +188,16 @@
 }
 
 @media (max-width: 425px) {
-  .card input {
-    width: 47vw;
-  }
 }
 
 @media (max-width: 320px) {
-  .card input {
-    width: 50vw;
+  .card {
+    width: 16rem;
+    height: 15rem;
+  }
+
+  .user_action button {
+    margin-left: 80px;
+    margin-right: 100px;
   }
 }
