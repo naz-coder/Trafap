@@ -1,6 +1,8 @@
 import React from "react";
 import "./slide.css";
-
+import MapsUgcIcon from "@mui/icons-material/MapsUgc";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import ShareIcon from "@mui/icons-material/Share";
 const slide = () => {
   return (
     <div className="slide">
@@ -12,31 +14,73 @@ const slide = () => {
           <div className="location">
             <h2>Nyanya - Abuja</h2>
           </div>
-          <p className="traffic_status">Status: High</p>
+          <div className="traffic_height">
+            <p className="traffic_status">Status: </p>
+            <p className="traffic_high">High</p>
+          </div>
           <p className="time_updated">10:00am</p>
           <p className="date_updated">06/10/2022</p>
           <p className="user_name">By Uche Felix</p>
-          <input placeholder="Comment here..."></input>
+          <div className="user_action">
+            {/* <div action_flex_left>
+              <MapsUgcIcon />
+            </div> */}
+            <button>
+              <MapsUgcIcon />
+            </button>
+            <div action_flex_right>
+              <FavoriteBorderIcon className="icon" />
+              <ShareIcon className="icon" />
+            </div>
+          </div>
         </div>
         <div className="card two">
           <div className="location">
             <h2>Rumuigbo - PH</h2>
           </div>
-          <p className="traffic_status">Status: High</p>
+          <div className="traffic_height">
+            <p className="traffic_status">Status: </p>
+            <p className="traffic_low">Low</p>
+          </div>
           <p className="time_updated">12:01pm</p>
           <p className="date_updated">06/10/2022</p>
           <p className="user_name">By Amara Ugwu</p>
-          <input placeholder="Comment here..."></input>
+          <div className="user_action">
+            {/* <div action_flex_left>
+              <MapsUgcIcon />
+            </div> */}
+            <button>
+              <MapsUgcIcon />
+            </button>
+            <div action_flex_right>
+              <FavoriteBorderIcon className="icon" />
+              <ShareIcon className="icon" />
+            </div>
+          </div>
         </div>
         <div className="card three">
           <div className="location">
             <h2>GSM Village - Lagos</h2>
           </div>
-          <p className="traffic_status">Status: Low</p>
+          <div className="traffic_height">
+            <p className="traffic_status">Status: </p>
+            <p className="traffic_high">High</p>
+          </div>
           <p className="time_updated">06:12am</p>
           <p className="date_updated">06/10/2022</p>
           <p className="user_name">By Karima Abdul</p>
-          <input placeholder="Comment here..."></input>
+          <div className="user_action">
+            {/* <div action_flex_left>
+              <MapsUgcIcon />
+            </div> */}
+            <button>
+              <MapsUgcIcon />
+            </button>
+            <div action_flex_right>
+              <FavoriteBorderIcon className="icon" />
+              <ShareIcon className="icon" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="cards_bottom">
@@ -44,31 +88,73 @@ const slide = () => {
           <div className="location">
             <h2>Ikorodu - Lagos</h2>
           </div>
-          <p className="traffic_status">Status: High</p>
+          <div className="traffic_height">
+            <p className="traffic_status">Status: </p>
+            <p className="traffic_high">High</p>
+          </div>
           <p className="time_updated">11:45am</p>
           <p className="date_updated">06/10/2022</p>
           <p className="user_name">By Kelina Oghene</p>
-          <input placeholder="Comment here..."></input>
+          <div className="user_action">
+            {/* <div action_flex_left>
+              <MapsUgcIcon />
+            </div> */}
+            <button>
+              <MapsUgcIcon />
+            </button>
+            <div action_flex_right>
+              <FavoriteBorderIcon className="icon" />
+              <ShareIcon className="icon" />
+            </div>
+          </div>
         </div>
         <div className="card five">
           <div className="location">
             <h2>Lugbe - Abuja</h2>
           </div>
-          <p className="traffic_status">Status: Medium</p>
+          <div className="traffic_height">
+            <p className="traffic_status">Status: </p>
+            <p className="traffic_mid">Medium</p>
+          </div>
           <p className="time_updated">07:30am</p>
           <p className="date_updated">06/10/2022</p>
           <p className="user_name">By Naza Agada</p>
-          <input placeholder="Comment here..."></input>
+          <div className="user_action">
+            {/* <div action_flex_left>
+              <MapsUgcIcon />
+            </div> */}
+            <button>
+              <MapsUgcIcon className="comment_icon" />
+            </button>
+            <div action_flex_right>
+              <FavoriteBorderIcon className="icon" />
+              <ShareIcon className="icon" />
+            </div>
+          </div>
         </div>
         <div className="card six">
           <div className="location">
             <h2>Lokoja - Kogi</h2>
           </div>
-          <p className="traffic_status">Status: Low</p>
+          <div className="traffic_height">
+            <p className="traffic_status">Status: </p>
+            <p className="traffic_low">Low</p>
+          </div>
           <p className="time_updated">09:10pm</p>
           <p className="date_updated">06/10/2022</p>
           <p className="user_name">By Hajara Anthony</p>
-          <input placeholder="Comment here..."></input>
+          <div className="user_action">
+            {/* <div action_flex_left>
+              <MapsUgcIcon />
+            </div> */}
+            <button>
+              <MapsUgcIcon />
+            </button>
+            <div action_flex_right>
+              <FavoriteBorderIcon className="icon" />
+              <ShareIcon className="icon" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

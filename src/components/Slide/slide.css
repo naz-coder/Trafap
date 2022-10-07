@@ -6,7 +6,7 @@
 .title h2 {
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 20px;
   padding-bottom: 25px;
 }
 
@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  text-align: left;
 }
 @keyframes slidein {
   from {
@@ -31,6 +32,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  text-align: left;
 }
 
 .card {
@@ -38,27 +40,39 @@
   height: 34vh; */
   width: 13rem;
   height: 13rem;
-  border: 1.5px solid #efb700;
+  border: 1.5px solid #e9ebec;
   border-radius: 10px;
   margin-bottom: 3rem;
-  background-color: #efb700;
+  background-color: #e9ebec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: 0.5s;
 }
 .location {
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid #e9ebec;
   border-radius: 10px;
   padding-bottom: 4px;
+  padding-left: 10px;
   margin-top: 1px;
-  background-color: #ffffff;
+  background-color: #e9ebec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 12px;
   color: #1f4690;
+}
+
+.slide p {
+  padding-left: 10px;
+  font-size: 16px;
+}
+.traffic_height {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  /* padding-left: 10px; */
 }
 
 .traffic_status {
@@ -66,23 +80,60 @@
   margin-top: 10px;
 }
 
-.card input {
-  width: 13vw;
-  height: 4vh;
-  border-radius: 7px;
-  border: 1px solid #aeb1b3;
-  padding-bottom: 2px;
-  margin-top: 13px;
-  font-family: "Archivo Narrow", sans-serif;
-  font-family: "Fira Sans", sans-serif;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Zen Kurenaido", sans-serif;
+.traffic_high {
+  font-weight: 900;
+  margin-top: 10px;
+  /* padding-left: 10px; */
+  color: #ff0000;
 }
 
-.card input::placeholder {
-  padding-left: 8px;
-  font-size: medium;
-  color: #bdc2ca;
+.traffic_mid {
+  font-weight: 900;
+  margin-top: 10px;
+  color: #efb700;
+}
+
+.traffic_low {
+  font-weight: 900;
+  margin-top: 10px;
+  color: #297a18;
+}
+
+.user_action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-left: -35px;
+}
+
+.user_action button {
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #efb700;
+  background-color: #efb700;
+  border-radius: 20px;
+  padding-top: 4px;
+  padding-left: 0px;
+}
+
+.action_flex_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #404040;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 /* MEDIA QUERY */
@@ -99,12 +150,34 @@
     flex-direction: column;
     justify-self: center;
   }
+
   .card {
+    /* width: 15vw;
+    height: 34vh; */
     align-self: center;
+    width: 20rem;
+    height: 15rem;
+    margin-bottom: 3rem;
   }
 
-  .card input {
-    width: 25vw;
+  .location {
+    padding-left: 15px;
+    font-size: 15px;
+  }
+
+  .slide p {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  .traffic_status {
+    font-weight: 900;
+    margin-top: 10px;
+  }
+
+  .user_action {
+    margin-top: 20px;
+    margin-left: -80px;
   }
 }
 
