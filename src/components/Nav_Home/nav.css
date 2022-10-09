@@ -22,6 +22,11 @@
   translate: 5s;
 }
 
+.log_in {
+  color: #000000;
+  text-decoration: none;
+}
+
 .nav_end ul {
   list-style: none;
   display: flex;

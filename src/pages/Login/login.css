@@ -1,6 +1,21 @@
+.login {
+  padding: 8rem 2rem 8rem 2rem;
+}
 .user_login {
-  padding: 8rem;
   /* text-align: center; */
+  padding: 2rem 3rem 2rem 3rem;
+  width: 20rem;
+  height: 20rem;
+  border: 1.5px solid #e9ebec;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+  background-color: #e9ebec;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user_login h2 {
+  padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 .login_form {
@@ -9,5 +24,37 @@
 }
 
 .login_form input {
-  width: 25rem;
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid #aeb1b3;
+  margin-bottom: 2rem;
+  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.login_form input::placeholder {
+  padding-left: 8px;
+  font-size: medium;
+  color: #bdc2ca;
+}
+
+.login_form button {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffe5b4;
+  font-weight: 900;
+  padding-bottom: 2px;
+}
+
+.login_form button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  translate: 5s;
+  color: #ffffff;
 }
