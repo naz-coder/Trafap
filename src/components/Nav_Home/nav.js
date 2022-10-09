@@ -9,7 +9,9 @@ import DropdownMenu from "../DropdownMenu/dropdown";
 const nav = () => {
   return (
     <div className="nav_home">
-      <img src={Trafap_Logo} alt="Logo"></img>
+      <Link to="/">
+        <img src={Trafap_Logo} alt="Logo"></img>
+      </Link>
       {/* <Link>
         <img src={TrafapLogo} alt="Logo"></img>
       </Link> */}
@@ -19,7 +21,9 @@ const nav = () => {
       <div className="nav_end">
         <ul>
           <li className="menu-item">
-            <p>Login</p>
+            <Link to={`login`}>
+              <p>Login</p>
+            </Link>
           </li>
           <li className="menu-item">
             <Signup />

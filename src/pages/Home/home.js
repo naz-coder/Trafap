@@ -3,10 +3,12 @@ import "./home.css";
 import Slide from "../../components/Slide/slide";
 import Footer from "../../components/Footer/footer";
 import Btn_Glob from "../../components/Button/Btn_Glob/btn";
+import Nav_Home from "../../components/Nav_Home/nav";
 
 const home = () => {
   return (
     <div className="landing">
+      <Nav_Home />
       <div className="hero">
         <div className="flex_left">
           <h3>

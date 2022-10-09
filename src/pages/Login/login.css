@@ -1,0 +1,13 @@
+.user_login {
+  padding: 8rem;
+  /* text-align: center; */
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form input {
+  width: 25rem;
+}

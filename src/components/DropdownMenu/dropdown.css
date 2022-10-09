@@ -32,6 +32,11 @@
     font-family: "Josefin Sans", sans-serif;
     font-family: "Zen Kurenaido", sans-serif;
   }
+
+  .log_in {
+    text-decoration: none;
+    color: #000000;
+  }
 }
 
 @media (max-width: 425px) {
