@@ -142,16 +142,20 @@ p.socials {
   }
 
   .user_login {
-    width: 15rem;
+    width: 14rem;
     height: 19.5rem;
   }
 
+  .user_login h2 {
+    font-size: 22px;
+  }
+
   .login_form input {
-    width: 17rem;
+    width: 16rem;
   }
 
   .login_form button {
-    width: 17rem;
+    width: 16rem;
   }
 
   .user_login input,
@@ -174,7 +178,7 @@ p.socials {
   }
 
   .user_login {
-    width: 15rem;
+    width: 14rem;
     height: 19.5rem;
     padding: 2rem 1rem 2rem 1rem;
   }
@@ -184,11 +188,11 @@ p.socials {
   }
 
   .login_form input {
-    width: 15rem;
+    width: 14rem;
   }
 
   .login_form button {
-    width: 15rem;
+    width: 14rem;
   }
 
   .user_login input,

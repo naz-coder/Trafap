@@ -37,13 +37,10 @@
 }
 
 .flex_right {
-  padding-right: 20px;
-}
-
-.flex_right {
   display: flex;
   flex-direction: column;
   padding-top: 22px;
+  padding-right: 20px;
 }
 
 .flex_right input {
@@ -64,7 +61,7 @@
   color: #bdc2ca;
 }
 
-.home_btn {
+.flex_right button {
   width: 25vw;
   height: 6vh;
   border-radius: 7px;
@@ -77,7 +74,7 @@
   margin-top: 13px;
 }
 
-.home_btn:hover {
+.flex_right button:hover {
   cursor: pointer;
   opacity: 0.9;
   translate: 5s;
@@ -142,7 +139,7 @@
     /* margin-top: -12rem; */
   }
 
-  .home_btn {
+  .flex_right button {
     width: 38vw;
     height: 6vh;
   }
@@ -154,9 +151,9 @@
     height: 45vh;
   }
 
-  .flex_right {
-    padding-left: 25px;
-  }
+  /* .flex_right {
+    padding-left: 20px;
+  } */
 
   .flex_left h3 {
     width: 85vw;
@@ -169,9 +166,10 @@
     /* margin-top: -12rem; */
   }
 
-  .home_btn {
+  .flex_right button {
     width: 75vw;
     height: 6vh;
+    margin-left: 0rem;
   }
 }
 
@@ -198,7 +196,7 @@
     /* margin-top: -12rem; */
   }
 
-  .home_btn {
+  .flex_right button {
     width: 75vw;
     height: 6vh;
   }

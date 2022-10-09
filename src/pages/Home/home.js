@@ -19,7 +19,7 @@ const home = () => {
         </div>
         <div className="flex_right">
           <input placeholder="Enter Route Here..."></input>
-          <button className="home_btn">Search</button>
+          <button className="hom_btn">Search</button>
         </div>
       </div>
       <Slide />
