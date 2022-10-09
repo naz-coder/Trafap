@@ -10,8 +10,9 @@ const navg = () => {
       <Link to="/">
         <img src={Trafap_Logo} alt="Logo"></img>
       </Link>
-      <div className="nav_mid">
-        <Find_Route />
+      <div className="nav_route">
+        <input placeholder="Enter Route Here..."></input>
+        <button className="navg_btn">Search</button>
       </div>
     </div>
   );

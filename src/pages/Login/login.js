@@ -2,6 +2,8 @@ import React from "react";
 import "./login.css";
 import Navg from "../../components/Nav_Global/navg";
 import Social_Account_Login from "../../components/Social_Account_Login/account";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
 
 const login = () => {
   return (
@@ -17,21 +19,35 @@ const login = () => {
               <input placeholder="Password"></input>
               <button className="login_btn">Login</button>
               <div className="more_option">
-                <p>Remember me</p>
-                <p>Forgot password?</p>
+                {/* <div className="check">
+                  <FormControlLabel
+                    id="checkbox"
+                    control={<Checkbox defaultChecked />}
+                    label="Remember me"
+                  />
+                  <Checkbox className="checkbox" />
+                </div>
+                <p>Remember me</p> */}
+                <p className="forgot">Forgot password?</p>
+                <div className="sign_up">
+                  <p>
+                    New? <span>Create an account</span>
+                  </p>
+                </div>
               </div>
-              <div>Login with</div>
-              {/* <Social_Account_Login /> */}
+              <p className="socials">Or login with;</p>
+              <Social_Account_Login />
             </form>
-            <div>
-              <p>New? Create an account</p>
-            </div>
+            {/* <div className="sign_up">
+              <p>
+                New? <span>Create an account</span>
+              </p>
+            </div> */}
           </div>
         </div>
       </div>
-
-      <div>
-        <p>Terms and Privacy © Trafap 2022</p>
+      <div className="terms">
+        <p>Terms and Privacy ©Trafap 2022</p>
       </div>
     </div>
   );
