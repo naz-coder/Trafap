@@ -1,5 +1,6 @@
 import React from "react";
 import "./signup.css";
+import { Link } from "react-router-dom";
 import Navg from "../../components/Nav_Global/navg";
 import Social_Account_Login from "../../components/Social_Account_Login/account";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -24,7 +25,10 @@ const signup = () => {
               <button className="signup_btn">Sigup</button>
               <div className="sign_up">
                 <p>
-                  Already have an account? <span>Login</span>
+                  Already have an account?
+                  <Link to={`/login`} className="redir_login">
+                    <span>Login</span>
+                  </Link>
                 </p>
               </div>
               <p className="socials">Or sign up with;</p>

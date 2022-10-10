@@ -37,6 +37,10 @@
     text-decoration: none;
     color: #000000;
   }
+
+  .sign_up {
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 425px) {

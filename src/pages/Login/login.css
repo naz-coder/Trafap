@@ -99,6 +99,10 @@
   font-weight: 900;
 }
 
+.redir_sign_up {
+  text-decoration: none;
+}
+
 p.socials {
   margin-top: 2rem;
   font-size: 13px;

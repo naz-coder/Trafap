@@ -94,6 +94,10 @@
     font-family: "Zen Kurenaido", sans-serif;
   } */
 
+.redir_login {
+  text-decoration: none;
+}
+
 .sign_up p {
   text-align: center;
   font-size: 13px;
@@ -102,6 +106,7 @@
 .sign_up p span {
   color: #1f4690;
   font-weight: 900;
+  padding-left: 0.5rem;
 }
 
 p.socials {

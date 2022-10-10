@@ -33,7 +33,7 @@ const login = () => {
                 <div className="sign_up">
                   <p>
                     New?
-                    <Link to={`signup`} className="redir_sign_up">
+                    <Link to={`/signup`} className="redir_sign_up">
                       <span>Create an account</span>
                     </Link>
                   </p>
