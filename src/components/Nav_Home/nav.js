@@ -26,7 +26,9 @@ const nav = () => {
             </Link>
           </li>
           <li className="menu-item">
-            <Signup />
+            <Link to={`signup`} className="sign_up">
+              <Signup />
+            </Link>
           </li>
         </ul>
       </div>

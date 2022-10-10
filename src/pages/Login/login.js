@@ -1,5 +1,6 @@
 import React from "react";
 import "./login.css";
+import { Link } from "react-router-dom";
 import Navg from "../../components/Nav_Global/navg";
 import Social_Account_Login from "../../components/Social_Account_Login/account";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -15,8 +16,8 @@ const login = () => {
           <h2>Welcome back to Trafap</h2>
           <div login_form>
             <form className="login_form">
-              <input placeholder="Email or Username"></input>
-              <input placeholder="Password"></input>
+              <input type={"text"} placeholder="Email or Username"></input>
+              <input type={"password"} placeholder="Password"></input>
               <button className="login_btn">Login</button>
               <div className="more_option">
                 {/* <div className="check">
@@ -31,7 +32,10 @@ const login = () => {
                 <p className="forgot">Forgot password?</p>
                 <div className="sign_up">
                   <p>
-                    New? <span>Create an account</span>
+                    New?
+                    <Link to={`signup`} className="redir_sign_up">
+                      <span>Create an account</span>
+                    </Link>
                   </p>
                 </div>
               </div>

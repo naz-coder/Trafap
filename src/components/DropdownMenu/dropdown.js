@@ -96,8 +96,10 @@ export default function MenuListComposition() {
                         Login
                       </Link>
                     </MenuItem>
-                    <MenuItem onClick={handleClose}>
-                      <Signup />
+                    <MenuItem onClick={handleClose} id="signup_menu">
+                      <Link to={`signup`} className="sign_up">
+                        <Signup />
+                      </Link>
                     </MenuItem>
                     {/* <MenuItem onClick={handleClose}>Logout</MenuItem> */}
                   </MenuList>
