@@ -154,8 +154,8 @@ p.socials {
     padding: 7rem 0rem 0.1rem 0rem;
   }
 
-  .terms {
-    font-size: 13px;
+  .user_login {
+    margin-bottom: 3rem;
   }
 }
 
@@ -168,10 +168,6 @@ p.socials {
     padding: 2rem 3rem 2rem 3rem;
     width: 20rem;
   }
-
-  .terms {
-    font-size: 12px;
-  }
 }
 
 @media (max-width: 425px) {
@@ -181,15 +177,19 @@ p.socials {
 
   .user_login {
     width: 14rem;
-    height: 19.5rem;
+    height: 20.5rem;
   }
 
   .user_login h2 {
     font-size: 22px;
   }
 
-  .login_form input {
-    width: 16rem;
+  .login_form label.login_label {
+    margin-left: -1rem;
+  }
+
+  .login_form input.login_input {
+    width: 15.8rem;
   }
 
   .login_form button {
@@ -200,14 +200,6 @@ p.socials {
   button {
     margin-left: -1rem;
   }
-
-  .more_option {
-    font-size: 13px;
-  }
-
-  .terms {
-    font-size: 11px;
-  }
 }
 
 @media (max-width: 320px) {
@@ -217,7 +209,7 @@ p.socials {
 
   .user_login {
     width: 14rem;
-    height: 19.5rem;
+    height: 20.5rem;
     padding: 2rem 1rem 2rem 1rem;
   }
 
@@ -225,7 +217,11 @@ p.socials {
     font-size: 20px;
   }
 
-  .login_form input {
+  .login_form label.login_label {
+    margin-left: -0.3rem;
+  }
+
+  .login_form input.login_input {
     width: 14rem;
   }
 
@@ -240,9 +236,5 @@ p.socials {
 
   .more_option {
     font-size: 12px;
-  }
-
-  .terms {
-    font-size: 10px;
   }
 }
