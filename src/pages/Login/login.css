@@ -19,7 +19,7 @@
 .user_login {
   padding: 2rem 3rem 3rem 3rem;
   width: 20rem;
-  height: 20rem;
+  height: 21rem;
   background-color: #ffffff;
   /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
   border: 1.5px solid none;
@@ -47,9 +47,8 @@
   padding-left: 10px;
 }
 
-.login_form input.login_input,
-.login_input1 {
-  width: 20rem;
+.login_form input.login_input {
+  width: 19.8rem;
   height: 2rem;
   border-radius: 5px;
   border: 1px solid #aeb1b3;
@@ -62,8 +61,7 @@
   font-family: "Zen Kurenaido", sans-serif;
 }
 
-.login_form input.login_input::placeholder,
-.login_input1::placeholder {
+.login_form input.login_input::placeholder {
   padding-left: 5px;
   font-size: medium;
   color: #919496;
@@ -74,10 +72,10 @@
   outline: none;
 }
 
-.login_form input.login_input,
-.login_input1[type="text"] {
+.login_form input.login_input[type="text"],
+input.login_input[type="password"] {
   color: #000000;
-  padding-left: 8px;
+  padding-left: 2px;
   font-weight: bolder;
   font-size: 15px;
 }

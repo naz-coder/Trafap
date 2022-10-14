@@ -19,7 +19,7 @@ const login = () => {
             <form className="login_form">
               <label className="login_label">Email Address </label>
               <input
-                className="login_input1"
+                className="login_input"
                 type={"text"}
                 placeholder="e.g example@mail.com"
               ></input>

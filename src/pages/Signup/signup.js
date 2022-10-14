@@ -18,14 +18,30 @@ const signup = () => {
           <div signup_form>
             <form className="signup_form">
               <label className="signup_label">Full Name</label>
-              <input type={"text"} placeholder="Naza Agada"></input>
+              <input
+                className="signup_input"
+                type={"text"}
+                placeholder="Naza Agada"
+              ></input>
               <label className="signup_label">Email Address </label>
-              <input type={"email"} placeholder="example@email.com"></input>
+              <input
+                className="signup_input"
+                type={"email"}
+                placeholder="e.g example@email.com"
+              ></input>
               {/* <div className="form_flex"> */}
               <label className="signup_label">Location </label>
-              <input type={"text"} placeholder="Mararaba, Kuje, Mile 1"></input>
+              <input
+                className="signup_input"
+                type={"text"}
+                placeholder="Mararaba, Kuje, Mile 1"
+              ></input>
               <label className="signup_label">Password </label>
-              <input type={"password"} placeholder="e.g 123-a45Z6"></input>
+              <input
+                className="signup_input"
+                type={"password"}
+                placeholder="e.g 123-a45Z6"
+              ></input>
               {/* </div> */}
               <button className="signup_btn">Sigup</button>
               <div className="sign_up">
