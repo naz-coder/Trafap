@@ -51,7 +51,7 @@
 .login_input1 {
   width: 20rem;
   height: 2rem;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid #aeb1b3;
   /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -85,7 +85,7 @@
 .login_form button {
   width: 20rem;
   height: 2rem;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid #1f4690;
   background-color: #1f4690;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

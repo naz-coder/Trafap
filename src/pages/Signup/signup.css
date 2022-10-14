@@ -51,7 +51,7 @@
 .signup_form input {
   width: 19.5rem;
   height: 2rem;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid #aeb1b3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 1.2rem;
@@ -108,7 +108,7 @@
 .signup_form button {
   width: 19.5rem;
   height: 2rem;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid #1f4690;
   background-color: #1f4690;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
