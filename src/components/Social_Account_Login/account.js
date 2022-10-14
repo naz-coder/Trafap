@@ -8,18 +8,18 @@ import yahoo_i from "../assets/images/yahoo_i.svg";
 const account = () => {
   return (
     <div className="social_acct">
-      <div className="twit_btn">
+      {/* <div className="twit_btn">
         <TwitterIcon className="twit_icon" />
-      </div>
+      </div> */}
       <div className="google_btn">
         <img src={google_icon} alt="G-Icon"></img>
       </div>
       <div className="fb_btn">
         <FacebookRoundedIcon className="fb_icon" />
       </div>
-      <div className="yahoo_btn">
+      {/* <div className="yahoo_btn">
         <img src={yahoo_i} alt="Y-Icon"></img>
-      </div>
+      </div> */}
     </div>
   );
 };
