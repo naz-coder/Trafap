@@ -3,21 +3,32 @@
   padding: 7rem 0rem 0.1rem 0rem;
   font-weight: 900;
   text-align: center;
+  color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../components/assets/images/login_hero.jpg");
+  width: 100vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
 }
 
 .user_login {
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 3rem 3rem 3rem;
   width: 20rem;
-  height: 20.5rem;
-  border: 1.5px solid #e9ebec;
+  height: 20rem;
+  background-color: #ffffff;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
+  border: 1.5px solid none;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../components/assets/images/login_bg.jpg"); */
   display: block;
   border-radius: 3px;
   margin-bottom: 1rem;
-  background-color: #e9ebec;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
 }
 
 .user_login h2 {
@@ -30,11 +41,19 @@
   flex-direction: column;
 }
 
-.login_form input {
+.login_form label.login_label {
+  text-align: left;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.login_form input.login_input,
+.login_input1 {
   width: 20rem;
-  height: 2.5rem;
-  border-radius: 5px;
+  height: 2rem;
+  border-radius: 20px;
   border: 1px solid #aeb1b3;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 2rem;
   font-family: "Archivo Narrow", sans-serif;
@@ -43,18 +62,32 @@
   font-family: "Zen Kurenaido", sans-serif;
 }
 
-.login_form input::placeholder {
-  padding-left: 8px;
+.login_form input.login_input::placeholder,
+.login_input1::placeholder {
+  padding-left: 5px;
   font-size: medium;
-  color: #bdc2ca;
+  color: #919496;
+}
+
+.login_form input.login_input,
+.login_input1:focus {
+  outline: none;
+}
+
+.login_form input.login_input,
+.login_input1[type="text"] {
+  color: #000000;
+  padding-left: 8px;
+  font-weight: bolder;
+  font-size: 15px;
 }
 
 .login_form button {
   width: 20rem;
   height: 2rem;
-  border-radius: 5px;
-  border: 1px solid #000000;
-  background-color: #000000;
+  border-radius: 20px;
+  border: 1px solid #1f4690;
+  background-color: #1f4690;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #ffe5b4;
   padding-bottom: 2px;
@@ -66,7 +99,9 @@
   cursor: pointer;
   opacity: 0.9;
   translate: 5s;
-  color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
 }
 
 /* #checkbox {
@@ -92,6 +127,7 @@
   color: #ff0000;
   font-weight: 900;
   text-decoration: underline;
+  font-size: 13px;
 }
 
 .sign_up p span {

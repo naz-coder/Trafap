@@ -1,23 +1,36 @@
 import React from "react";
 import "./login.css";
 import { Link } from "react-router-dom";
-import Navg from "../../components/Nav_Global/navg";
+import Nav_Home from "../../components/Nav_Home/nav";
 import Social_Account_Login from "../../components/Social_Account_Login/account";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
+import Footer from "../../components/Footer/footer";
 
 const login = () => {
   return (
     <div className="wrap">
-      <Navg />
+      <Nav_Home />
       <div className="login">
         <div className="user_login">
           {/* Concatenate the welcome tag below to take in and update the name of every user when they return */}
           <h2>Welcome back to Trafap</h2>
           <div login_form>
             <form className="login_form">
-              <input type={"text"} placeholder="Email or Username"></input>
-              <input type={"password"} placeholder="Password"></input>
+              <label className="login_label">Email Address </label>
+              <input
+                className="login_input1"
+                type={"text"}
+                placeholder="e.g example@mail.com"
+              ></input>
+
+              <label className="login_label">Password </label>
+              <input
+                className="login_input"
+                type={"password"}
+                placeholder="e.g 123-a45Z6"
+              ></input>
+
               <button className="login_btn">Login</button>
               <div className="more_option">
                 {/* <div className="check">
@@ -42,17 +55,13 @@ const login = () => {
               <p className="socials">Or login with;</p>
               <Social_Account_Login />
             </form>
-            {/* <div className="sign_up">
-              <p>
-                New? <span>Create an account</span>
-              </p>
-            </div> */}
           </div>
         </div>
       </div>
-      <div className="terms">
+      {/* <div className="terms">
         <p>Terms and Privacy ©Trafap 2022</p>
-      </div>
+      </div> */}
+      <Footer />
     </div>
   );
 };
