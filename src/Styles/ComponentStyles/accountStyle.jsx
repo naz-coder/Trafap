@@ -1,4 +1,7 @@
-.social_acct {
+import styled from "styled-components";
+
+export const AccountWrap = styled.div`
+  .social_acct {
   display: flex;
   flex-direction: row;
   /* justify-content: space-evenly; */
@@ -39,3 +42,4 @@
   opacity: 0.7;
   translate: 5s;
 }
+`

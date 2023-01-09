@@ -1,4 +1,7 @@
-.slide {
+import styled from "styled-components";
+
+export const SlideWrap = styled.div`
+  .slide {
   margin-top: 50px;
   text-align: center;
 }
@@ -197,3 +200,4 @@
     margin-right: 100px;
   }
 }
+`

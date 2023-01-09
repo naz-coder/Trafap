@@ -1,5 +1,5 @@
 import React from "react";
-import "./signup.css";
+import {SignUpWrap} from "../../Styles/PageStyles/signupStyle";
 import { Link } from "react-router-dom";
 import Nav_Home from "../../components/Nav_Home/nav";
 import Social_Account_Login from "../../components/Social_Account_Login/account";
@@ -9,7 +9,8 @@ import Checkbox from "@mui/material/Checkbox";
 
 const signup = () => {
   return (
-    <div className="wrap">
+    <SignUpWrap>
+      <div className="wrap">
       <Nav_Home />
       <div className="signup">
         <div className="user_signup">
@@ -62,7 +63,8 @@ const signup = () => {
         <p>Terms and Privacy ©Trafap 2022</p>
       </div> */}
       <Footer />
-    </div>
+      </div>
+    </SignUpWrap>
   );
 };
 

@@ -1,23 +1,24 @@
-.hero {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 8.5rem;
-  /* background-image: url(../../components/assets/images/hero.jpg); */
-  /* background: linear-gradient(rgba(222, 222, 230, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../../components/assets/images/hero.jpg); */
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../../components/assets/images/hero.jpg);
-  width: 100vw;
-  height: 55vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Archivo Narrow", sans-serif;
-  font-family: "Fira Sans", sans-serif;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Zen Kurenaido", sans-serif;
-}
+import styled from "styled-components";
+import hero from '../../components/assets/images/hero.jpg';
 
+export const HomePageWrap = styled.div`
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 8.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../components/assets/images/hero.jpg");
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${hero});
+    width: 100vw;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Archivo Narrow", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Zen Kurenaido", sans-serif;
+  }
 .flex_left {
   padding-left: 20px;
 }
@@ -201,3 +202,5 @@
     height: 6vh;
   }
 }
+
+`

@@ -1,13 +1,15 @@
 import React from "react";
-import "./route.css";
+import {RouteWrap} from "../../Styles/ComponentStyles/routeStyle";
 
 const route = () => {
   return (
-    <div className="route">
+    <RouteWrap>
+      <div className="route">
       {/* customize the enter key for to "search" */}
       <input placeholder="Enter Route Here..."></input>
       <button className="hidden">Search</button>
-    </div>
+      </div>
+    </RouteWrap>
   );
 };
 

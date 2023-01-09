@@ -1,4 +1,4 @@
-import "./nav.css";
+import {HomeNavWrap} from "../../Styles/ComponentStyles/navStyle";
 import React from "react";
 import { Link } from "react-router-dom";
 import Trafap_Logo from "../assets/images/Trafap_Logo.png";
@@ -8,7 +8,8 @@ import DropdownMenu from "../DropdownMenu/dropdown";
 
 const nav = () => {
   return (
-    <div className="nav_home">
+    <HomeNavWrap>
+      <div className="nav_home">
       <Link to="/">
         <img src={Trafap_Logo} alt="Logo"></img>
       </Link>
@@ -32,7 +33,7 @@ const nav = () => {
           </li>
         </ul>
       </div>
-      <DropdownMenu />
+      {/* <DropdownMenu /> */}
 
       {/* <div className="nav_end">
         <ul>
@@ -47,6 +48,7 @@ const nav = () => {
         </ul>
       </div> */}
     </div>
+    </HomeNavWrap>
   );
 };
 

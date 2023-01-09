@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import {FooterWrap} from "../../Styles/ComponentStyles/footerStyle";
 import Trafap_Logo from "../assets/images/Trafap_Logo.png";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
@@ -8,7 +8,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const footer = () => {
   return (
-    <div className="foot">
+    <FooterWrap>
+      <div  className="foot">
       <div className="foot_flex">
         <div className="foot_item">
           <img src={Trafap_Logo} alt="Logo"></img>
@@ -32,7 +33,8 @@ const footer = () => {
         </div>
       </div>
       <p className="copy">© Trafap 2022</p>
-    </div>
+      </div>
+    </FooterWrap>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./login.css";
+import {LoginPageWrap} from "../../Styles/PageStyles/loginStyle";
 import { Link } from "react-router-dom";
 import Nav_Home from "../../components/Nav_Home/nav";
 import Social_Account_Login from "../../components/Social_Account_Login/account";
@@ -9,7 +9,8 @@ import Footer from "../../components/Footer/footer";
 
 const login = () => {
   return (
-    <div className="wrap">
+    <LoginPageWrap>
+      <div  className="wrap">
       <Nav_Home />
       <div className="login">
         <div className="user_login">
@@ -62,7 +63,8 @@ const login = () => {
         <p>Terms and Privacy ©Trafap 2022</p>
       </div> */}
       <Footer />
-    </div>
+      </div>
+    </LoginPageWrap>
   );
 };
 

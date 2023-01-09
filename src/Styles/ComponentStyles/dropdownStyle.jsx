@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Josefin+Sans:wght@300&family=Zen+Kurenaido&display=swap");
+import styled from "styled-components";
+
+export const DropDownWrap = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Josefin+Sans:wght@300&family=Zen+Kurenaido&display=swap");
 
 #mobile-menu {
   display: none;
@@ -47,3 +50,5 @@
 }
 @media (max-width: 320px) {
 }
+
+`

@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./dropdown.css";
+import {DropDownWrap} from "../../Styles/ComponentStyles/dropdownStyle";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 import ClickAwayListener from "@mui/material/ClickAwayListener";
@@ -48,6 +48,7 @@ export default function MenuListComposition() {
   }, [open]);
 
   return (
+    <DropDownWrap>
     <Stack direction="row" spacing={2} id="mobile-menu">
       {/* <Paper>
         <MenuList>
@@ -110,6 +111,7 @@ export default function MenuListComposition() {
         </Popper>
       </div>
     </Stack>
+    </DropDownWrap>
   );
 }
 

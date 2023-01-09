@@ -1,3 +1,7 @@
+import styled from "styled-components";
+import login_hero from '../../components/assets/images/login_hero.jpg';
+
+export const LoginPageWrap = styled.div`
 .login {
   /* float: right; */
   padding: 7rem 0rem 0.1rem 0rem;
@@ -8,7 +12,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../../components/assets/images/login_hero.jpg");
+    url(${login_hero});
   width: 100vw;
   height: 100%;
   background-repeat: no-repeat;
@@ -238,3 +242,4 @@ p.socials {
     font-size: 12px;
   }
 }
+`

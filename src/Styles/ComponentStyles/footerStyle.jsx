@@ -1,4 +1,7 @@
-.foot {
+import styled from "styled-components";
+
+export const FooterWrap = styled.div`
+  .foot {
   text-align: left;
   background-color: #000000;
   color: #bdc2ca;
@@ -92,3 +95,4 @@ p.last_p {
 
 @media (max-width: 320px) {
 }
+`

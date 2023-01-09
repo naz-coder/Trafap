@@ -1,12 +1,13 @@
 import React from "react";
-import "./slide.css";
+import {SlideWrap} from "../../Styles/ComponentStyles/slideStyle.jsx";
 import MapsUgcIcon from "@mui/icons-material/MapsUgc";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShareIcon from "@mui/icons-material/Share";
 
 const slide = () => {
   return (
-    <div className="slide">
+    <SlideWrap>
+      <div className="slide">
       <div className="title">
         <h2>Latest Traffic Updates</h2>
       </div>
@@ -295,7 +296,8 @@ const slide = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </SlideWrap>
   );
 };
 

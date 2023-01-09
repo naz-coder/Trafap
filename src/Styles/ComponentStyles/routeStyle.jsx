@@ -1,4 +1,7 @@
-.route input {
+import styled from "styled-components";
+
+export const RouteWrap = styled.div`
+  .route input {
   width: 25vw;
   height: 4vh;
   border-radius: 10px 0 0 10px;
@@ -28,10 +31,12 @@
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
-  font-family: "Zen Kurenaido", sans-serif;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
 }
 
-.route button:hover {
+button:hover {
+  background-position: left bottom;
   cursor: pointer;
   opacity: 0.9;
   translate: 5s;
@@ -99,3 +104,4 @@
     display: none;
   }
 }
+`

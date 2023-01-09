@@ -1,11 +1,11 @@
 import React from "react";
-import "./signup_Btn.css";
+import {SignupButton} from "../../../Styles/ComponentStyles/buttonStyle";
 
 const signin_btn = () => {
   return (
-    <div>
+    <SignupButton>
       <button className="sign_btn">Signup</button>
-    </div>
+    </SignupButton>
   );
 };
 
