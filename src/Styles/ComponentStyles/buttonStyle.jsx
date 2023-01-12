@@ -72,11 +72,12 @@ button {
 
 button:hover {
   background-position: left bottom;
+  border: 1px solid #efb700a7;
+  background-color: #efb700a7;
   cursor: pointer;
   opacity: 0.7;
   translate: 5s;
-  color: #000000;
-
+  color: #ffffff;
 }
 
 /* MEDIA QUERY */

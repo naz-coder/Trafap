@@ -1,5 +1,6 @@
 import React from "react";
 import {HomePageWrap} from "../../Styles/PageStyles/homeStyle"
+import {SearchRouteData} from "../../components/Utility/ProductData"
 import Slide from "../../components/Slide/slide";
 import Footer from "../../components/Footer/footer";
 import Btn_Glob from "../../components/Button/Btn_Glob/btn";
@@ -18,10 +19,14 @@ const home = () => {
           </h3>
           <p>Search traffic by route...</p>
         </div>
-        <div className="flex_right">
-          <input placeholder="Enter Route Here..."></input>
-          <button className="hom_btn">Search</button>
-        </div>
+        {SearchRouteData.map((item) => {
+          return(
+            <div className="flex_right" key={item.key}>
+              <input type={item.dataType} name={item.name} placeholder={item.placeholder}/>
+              <button className="hom_btn">Search</button>
+            </div>
+          )
+        })}
       </div>
       <Slide />
       <Btn_Glob />

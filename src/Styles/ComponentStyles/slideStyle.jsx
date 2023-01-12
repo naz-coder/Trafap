@@ -13,11 +13,10 @@ export const SlideWrap = styled.div`
   padding-bottom: 25px;
 }
 
-.cards_top,
-.cards_mid,
-.cards_bottom {
+.cards_top{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
   justify-content: space-evenly;
   text-align: left;
 }
@@ -40,7 +39,8 @@ export const SlideWrap = styled.div`
   height: 15rem;
   border: 1.5px solid #e9ebec;
   border-radius: 10px;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
+  margin: 0 5rem 3rem 5rem;
   background-color: #e9ebec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

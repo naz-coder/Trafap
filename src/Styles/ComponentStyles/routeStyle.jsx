@@ -6,28 +6,34 @@ export const RouteWrap = styled.div`
   height: 4vh;
   border-radius: 10px 0 0 10px;
   border: 1px solid #aeb1b3;
-  font-weight: 900;
   padding-bottom: 2px;
+  padding-left: 0.5rem;
+  font-weight: 900;
+  font-size: 0.9rem;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
   font-family: "Zen Kurenaido", sans-serif;
 }
+
 .route input::placeholder {
-  padding-left: 8px;
-  font-size: small;
   color: #bdc2ca;
+}
+
+.route input:focus {
+  outline: none;
 }
 
 .route button {
   width: 5vw;
-  height: 4.7vh;
+  height: 5vh;
   border-radius: 0 10px 10px 0;
-  border: 1px solid #000000;
-  background-color: #000000;
+  border: 1px solid #222222;
+  background-color: #222222;
   color: #ffe5b4;
   font-weight: 900;
-  padding-bottom: 2px;
+  /* padding-bottom: 2px; */
+  padding-top: 4px;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
@@ -41,6 +47,8 @@ button:hover {
   opacity: 0.9;
   translate: 5s;
   color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 
 /* MEDIA QUERY */

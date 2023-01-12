@@ -33,6 +33,11 @@ export const FooterWrap = styled.div`
   justify-content: space-evenly;
 }
 
+.foot_item:hover{
+  cursor: pointer;
+  /* font-weight: 900; */
+}
+
 .foot_item p {
   border-right: 1px solid #d9dad6;
   padding: 0 7px 0 7px;

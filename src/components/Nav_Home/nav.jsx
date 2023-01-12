@@ -22,12 +22,12 @@ const nav = () => {
       <div className="nav_end">
         <ul>
           <li className="menu-item">
-            <Link to={`login`} className="log_in">
+            <Link to={`/login`} className="log_in">
               <p>Login</p>
             </Link>
           </li>
           <li className="menu-item">
-            <Link to={`signup`} className="sign_up">
+            <Link to={`/signup`} className="sign_up">
               <Signup />
             </Link>
           </li>

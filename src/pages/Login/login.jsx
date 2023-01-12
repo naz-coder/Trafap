@@ -1,5 +1,6 @@
 import React from "react";
 import {LoginPageWrap} from "../../Styles/PageStyles/loginStyle";
+import { LoginData } from "../../components/Utility/ProductData";
 import { Link } from "react-router-dom";
 import Nav_Home from "../../components/Nav_Home/nav";
 import Social_Account_Login from "../../components/Social_Account_Login/account";
@@ -18,20 +19,20 @@ const login = () => {
           <h2>Welcome back to Trafap</h2>
           <div login_form>
             <form className="login_form">
-              <label className="login_label">Email Address </label>
-              <input
-                className="login_input"
-                type={"text"}
-                placeholder="e.g example@mail.com"
-              ></input>
-
-              <label className="login_label">Password </label>
-              <input
-                className="login_input"
-                type={"password"}
-                placeholder="e.g 123-a45Z6"
-              ></input>
-
+            {LoginData.map((items) => {
+              return(
+                <>
+                <label className="login_label" key={items.key} name={items.name} datatype={items.dataType}>{items.label}</label>
+                <input
+                  className="login_input"
+                  name={items.name}
+                  required
+                  key={items.key}
+                  placeholder={items.placeholder}
+                />
+                </>
+              )
+            })}
               <button className="login_btn">Login</button>
               <div className="more_option">
                 {/* <div className="check">
@@ -59,9 +60,6 @@ const login = () => {
           </div>
         </div>
       </div>
-      {/* <div className="terms">
-        <p>Terms and Privacy ©Trafap 2022</p>
-      </div> */}
       <Footer />
       </div>
     </LoginPageWrap>

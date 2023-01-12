@@ -53,12 +53,15 @@ export const SignUpWrap = styled.div`
 }
 
 .signup_form input.signup_input {
-  width: 19.2rem;
+  width: 18.9rem;
   height: 2rem;
   border-radius: 5px;
   border: 1px solid #aeb1b3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 1.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
@@ -66,8 +69,6 @@ export const SignUpWrap = styled.div`
 }
 
 .signup_form input.signup_input::placeholder {
-  padding-left: 2px;
-  font-size: medium;
   color: #bdc2ca;
 }
 
@@ -82,10 +83,6 @@ input[type="password"] {
   padding-left: 2px;
   font-weight: bolder;
   font-size: 15px;
-}
-
-.signup_form input:focus {
-  outline: none;
 }
 
 /* .signup_form .form_flex {
@@ -104,16 +101,18 @@ input[type="password"] {
   color: #ffe5b4;
   padding-bottom: 2px;
   margin-top: -2px;
-  margin-bottom: 7px;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
 }
 
 .signup_form button:hover {
+  background-position: left bottom;
   cursor: pointer;
   opacity: 0.9;
   translate: 5s;
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
+  color: #ffffff;
+  background-color: #161925;
+  border: 1px solid #161925;
 }
 
 /* #checkbox {

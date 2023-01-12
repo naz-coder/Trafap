@@ -58,7 +58,10 @@ export const LoginPageWrap = styled.div`
   border: 1px solid #aeb1b3;
   /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 0.5rem;
+  padding-bottom: 0.2rem;
   margin-bottom: 2rem;
+  font-size: 1rem;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
@@ -66,8 +69,6 @@ export const LoginPageWrap = styled.div`
 }
 
 .login_form input.login_input::placeholder {
-  padding-left: 5px;
-  font-size: medium;
   color: #919496;
 }
 
@@ -95,15 +96,18 @@ input.login_input[type="password"] {
   padding-bottom: 2px;
   margin-top: -15px;
   margin-bottom: 7px;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
 }
 
 .login_form button:hover {
+  background-position: left bottom;
   cursor: pointer;
   opacity: 0.9;
   translate: 5s;
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
+  color: #ffffff;
+  background-color: #161925;
+  border: 1px solid #161925;
 }
 
 /* #checkbox {

@@ -45,11 +45,14 @@ export const HomePageWrap = styled.div`
 }
 
 .flex_right input {
-  width: 25vw;
+  width: 24.1vw;
   height: 6vh;
   border-radius: 7px;
   border: 1px solid #aeb1b3;
   padding-bottom: 2px;
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 900;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
@@ -57,9 +60,11 @@ export const HomePageWrap = styled.div`
 }
 
 .flex_right input::placeholder {
-  padding-left: 8px;
-  font-size: medium;
   color: #bdc2ca;
+}
+
+.flex_right input:focus{
+  outline: none;
 }
 
 .flex_right button {
@@ -70,18 +75,23 @@ export const HomePageWrap = styled.div`
   background-color: #efb700;
   color: #1f4690;
   font-weight: 900;
-  font-size: medium;
+  font-size: 1.2rem;
   margin-bottom: 13px;
   margin-top: 13px;
+  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
 }
 
 .flex_right button:hover {
+  background-position: left bottom;
+  border: 1px solid #efb700a7;
+  background-color: #efb700a7;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.7;
   translate: 5s;
-  border: 1px solid #000000;
-  background-color: #1f4690;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* MEDIA QUERY */
