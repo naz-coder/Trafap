@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+**App Name**
+Trafap
+
+**Description**
+Trafap is a traffic management application that solves the problem of
+traffic congestion in particular routes in Nigeria. It relieves the stress that comes with unpredictable traffic congestion and the disappointments it brings to road users. With Trafap you get updates as to the traffic status in your choice of location.
+
+**Technologies**
+Built using ReactJS (npm)
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -12,7 +22,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You may also see any lint errors in the console. -->
 
 ### `npm test`
 

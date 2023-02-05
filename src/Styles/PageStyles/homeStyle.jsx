@@ -94,6 +94,10 @@ export const HomePageWrap = styled.div`
   color: #ffffff;
 }
 
+.flex_right button:hover {
+  outline: none;
+}
+
 /* MEDIA QUERY */
 @media (max-width: 960px) {
   .hero {
@@ -120,7 +124,7 @@ export const HomePageWrap = styled.div`
     flex-direction: column;
     align-items: center;
     padding-top: 11.4rem;
-    height: 50vh;
+    height: 60vh;
   }
 
   .flex_left {
@@ -138,7 +142,7 @@ export const HomePageWrap = styled.div`
   }
 
   .flex_left h3 {
-    width: 45vw;
+    width: 73vw;
     font-size: 28px;
     font-weight: 900;
   }
@@ -151,7 +155,7 @@ export const HomePageWrap = styled.div`
   }
 
   .flex_right button {
-    width: 38vw;
+    width: 39.2vw;
     height: 6vh;
   }
 }
@@ -159,7 +163,7 @@ export const HomePageWrap = styled.div`
 @media (max-width: 425px) {
   .hero {
     padding-top: 11.4rem;
-    height: 45vh;
+    height: 55vh;
   }
 
   /* .flex_right {
@@ -178,7 +182,7 @@ export const HomePageWrap = styled.div`
   }
 
   .flex_right button {
-    width: 75vw;
+    width: 78vw;
     height: 6vh;
     margin-left: 0rem;
   }
@@ -208,7 +212,7 @@ export const HomePageWrap = styled.div`
   }
 
   .flex_right button {
-    width: 75vw;
+    width: 78vw;
     height: 6vh;
   }
 }

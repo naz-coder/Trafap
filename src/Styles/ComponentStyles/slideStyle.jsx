@@ -4,6 +4,7 @@ export const SlideWrap = styled.div`
   .slide {
   margin-top: 50px;
   text-align: center;
+  
 }
 
 .title h2 {
@@ -19,6 +20,7 @@ export const SlideWrap = styled.div`
   /* flex-direction: row; */
   justify-content: space-evenly;
   text-align: left;
+  
 }
 @keyframes slidein {
   from {
@@ -47,7 +49,7 @@ export const SlideWrap = styled.div`
 
 .card:hover {
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.8;
   transition: 0.5s;
 }
 .location {
@@ -155,6 +157,7 @@ export const SlideWrap = styled.div`
     width: 20rem;
     height: 16.5rem;
     margin-bottom: 3rem;
+
   }
 
   .location {
@@ -181,6 +184,19 @@ export const SlideWrap = styled.div`
     margin-left: 70px;
     margin-right: 150px;
   }
+}
+
+@media (max-width: 479px) {
+  .card {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-self: center;
+    width: 20rem;
+    height: 16.5rem;
+    margin-bottom: 3rem;
+  }
+
+ 
 }
 
 @media (max-width: 425px) {

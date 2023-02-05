@@ -99,5 +99,9 @@ p.last_p {
 }
 
 @media (max-width: 320px) {
+  .foot{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 `

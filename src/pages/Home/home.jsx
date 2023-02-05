@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/footer";
 import Btn_Glob from "../../components/Button/Btn_Glob/btn";
 import Nav_Home from "../../components/Nav_Home/nav";
 
+
 const home = () => {
   return (
     <HomePageWrap>

@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const AccountWrap = styled.div`
+  /* display: center;
+  justify-content: center;
+  align-items: center;
+   */
   .social_acct {
   display: flex;
   flex-direction: row;
