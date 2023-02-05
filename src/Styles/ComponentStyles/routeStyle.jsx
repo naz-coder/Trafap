@@ -71,7 +71,7 @@ button:hover {
     width: 50vw;
     height: 4vh;
     border-radius: 10px 10px 10px 10px;
-    margin-right: 4.5vw;
+    /* margin-right: 4.5vw; */
   }
 
   .route input::placeholder {
@@ -87,7 +87,7 @@ button:hover {
   .route input {
     width: 55vw;
     height: 4vh;
-    /* margin-right: 5px; */
+    margin-left: 11vw;
     border-radius: 10px 10px 10px 10px;
   }
 

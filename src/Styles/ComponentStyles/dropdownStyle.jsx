@@ -5,6 +5,7 @@ export const DropDownWrap = styled.div`
 
 #mobile-menu {
   display: none;
+  
 }
 
 /* MEDIA QUERY */
@@ -16,7 +17,9 @@ export const DropDownWrap = styled.div`
     /* background-color: #000000; */
     /* color: #ffe5b4; */
     color: #efb700;
+    margin-left: 15vw;
   }
+
   #mobile-menu {
     display: block;
   }
@@ -47,8 +50,14 @@ export const DropDownWrap = styled.div`
 }
 
 @media (max-width: 425px) {
+  #composition-button {
+    margin-left: 6.5vw;
+  }
 }
 @media (max-width: 320px) {
+  #composition-button {
+    margin-left: 2.5vw;
+  }
 }
 
 `

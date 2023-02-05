@@ -33,7 +33,7 @@ const nav = () => {
           </li>
         </ul>
       </div>
-      {/* <DropdownMenu /> */}
+      <DropdownMenu />
 
       {/* <div className="nav_end">
         <ul>

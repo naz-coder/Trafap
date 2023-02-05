@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const GenNavWrap = styled.div`
+
   .nav_route input {
   width: 28vw;
   height: 5vh;
@@ -100,9 +101,12 @@ export const GenNavWrap = styled.div`
 export const HomeNavWrap = styled.div`
   .nav_home {
   padding: 15px 10px 15px 10px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
   align-items: center;
   background-color: #1f4690;
   width: 100vw;
@@ -129,14 +133,23 @@ export const HomeNavWrap = styled.div`
 
 .nav_end ul {
   list-style: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 1vw;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly; */
   align-items: center;
+  
 }
 
-.nav_end ul li {
-  padding-right: 10px;
+
+.nav_end ul:nth-child(1) {
+  margin-left: 22vw;
+}
+
+.nav_end ul:nth-child(2) {
+  margin-right: 2vw;
 }
 
 .nav_end ul li p {
@@ -151,13 +164,19 @@ export const HomeNavWrap = styled.div`
 }
 
 /* MEDIA QUERY */
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
+  .nav_end ul:nth-child(1) {
+    margin-left: 21vw;
+}
+
 }
 
 @media (max-width: 768px) {
   .nav_end {
     display: none;
   }
+
+  
 }
 
 @media (max-width: 425px) {

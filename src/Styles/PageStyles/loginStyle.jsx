@@ -21,7 +21,7 @@ export const LoginPageWrap = styled.div`
 }
 
 .user_login {
-  padding: 2rem 3rem 3rem 3rem;
+  padding: 2rem 3rem 3rem 1rem;
   width: 20rem;
   height: 21rem;
   background-color: #ffffff;
@@ -86,7 +86,7 @@ input.login_input[type="password"] {
 }
 
 .login_form button {
-  width: 20rem;
+  width: 20.5rem;
   height: 2rem;
   border-radius: 5px;
   border: 1px solid #1f4690;
@@ -204,9 +204,14 @@ p.socials {
     width: 16rem;
   }
 
-  .user_login input,
-  button {
+  .user_login input{
     margin-left: -1rem;
+
+  }
+
+  .user_login button {
+    margin-left: -1rem;
+    width: 16.3rem;
   }
 }
 
@@ -237,9 +242,13 @@ p.socials {
     width: 14rem;
   }
 
-  .user_login input,
-  button {
+  .user_login input {
     margin-left: 0rem;
+  }
+
+  .user_login button {
+    margin-left: 0rem;
+    width: 14.6rem;
   }
 
   .more_option {
