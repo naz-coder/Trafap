@@ -23,7 +23,7 @@ export const LoginPageWrap = styled.div`
 .user_login {
   padding: 2rem 3rem 3rem 1rem;
   width: 20rem;
-  height: 21rem;
+  height: 23rem;
   background-color: #ffffff;
   /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
   border: 1.5px solid none;

@@ -93,12 +93,12 @@ export default function MenuListComposition() {
                     onKeyDown={handleListKeyDown}
                   >
                     <MenuItem onClick={handleClose} id="login-menu">
-                      <Link to={`login`} className="log_in">
+                      <Link to={`/login`} className="log_in">
                         Login
                       </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose} id="signup_menu">
-                      <Link to={`signup`} className="sign_up">
+                      <Link to={`/signup`} className="sign_up">
                         <Signup />
                       </Link>
                     </MenuItem>
