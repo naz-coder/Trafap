@@ -56,7 +56,7 @@ export const DropDownWrap = styled.div`
 }
 @media (max-width: 320px) {
   #composition-button {
-    margin-left: 2.5vw;
+    margin-left: 1vw;
   }
 }
 

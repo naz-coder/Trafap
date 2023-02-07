@@ -56,6 +56,11 @@ p.last_p {
   color: #ffffff;
 }
 
+.social_icons a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .whatsapp:hover {
   color: #00ff00;
 }
@@ -96,6 +101,19 @@ p.last_p {
 }
 
 @media (max-width: 425px) {
+  .foot_item p {
+  padding: 0 1vw 0 1vw;
+}
+
+.sm_contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pipe-txt{
+  display: none;
+}
 }
 
 @media (max-width: 320px) {
@@ -103,5 +121,9 @@ p.last_p {
     padding-left: 5px;
     padding-right: 5px;
   }
+
+  .foot_item p {
+  padding: 0 1vw 0 1vw;
+}
 }
 `

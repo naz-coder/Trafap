@@ -21,9 +21,9 @@ export const LoginPageWrap = styled.div`
 }
 
 .user_login {
-  padding: 2rem 3rem 3rem 1rem;
+  padding: 2rem 3rem 3rem 2.5rem;
   width: 20rem;
-  height: 23rem;
+  height: 21.5rem;
   background-color: #ffffff;
   /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
   border: 1.5px solid none;
@@ -168,6 +168,7 @@ p.socials {
 }
 
 @media (max-width: 768px) {
+
   .login {
     padding: 7rem 0rem 0.1rem 0rem;
   }
@@ -176,6 +177,15 @@ p.socials {
     padding: 2rem 3rem 2rem 3rem;
     width: 20rem;
   }
+
+  .login_form input.login_input {
+  width: 40.5vw;
+  }
+
+  .login_form button {
+  width: 41.65vw;
+
+  }
 }
 
 @media (max-width: 425px) {
@@ -183,9 +193,10 @@ p.socials {
     padding: 7rem 0rem 0.1rem 0rem;
   }
 
+  
   .user_login {
     width: 14rem;
-    height: 20.5rem;
+    height: 21.5rem;
   }
 
   .user_login h2 {
@@ -197,21 +208,23 @@ p.socials {
   }
 
   .login_form input.login_input {
-    width: 15.8rem;
+    width: 15.5rem;
   }
 
   .login_form button {
-    width: 16rem;
+    width: 16.1rem;
   }
 
   .user_login input{
     margin-left: -1rem;
-
   }
 
   .user_login button {
     margin-left: -1rem;
-    width: 16.3rem;
+  }
+
+  .more_option {
+    font-size: 12px;
   }
 }
 
@@ -235,11 +248,11 @@ p.socials {
   }
 
   .login_form input.login_input {
-    width: 14rem;
+    width: 13.5rem;
   }
 
   .login_form button {
-    width: 14rem;
+    width: 14.1rem;
   }
 
   .user_login input {
@@ -248,11 +261,11 @@ p.socials {
 
   .user_login button {
     margin-left: 0rem;
-    width: 14.6rem;
   }
 
   .more_option {
     font-size: 12px;
+
   }
 }
 `

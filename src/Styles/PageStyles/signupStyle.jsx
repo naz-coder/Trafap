@@ -230,11 +230,11 @@ p.socials {
   }
 
   .signup_form input.signup_input {
-    width: 17rem;
+    width: 16.4rem;
   }
 
   .signup_form button {
-    width: 17.3rem;
+    width: 16.95rem;
   }
 
   .user_signup input,
@@ -269,11 +269,11 @@ p.socials {
   }
 
   .signup_form input.signup_input {
-    width: 14rem;
+    width: 13.5rem;
   }
 
   .signup_form button {
-    width: 14.2rem;
+    width: 14rem;
   }
 
   .user_signup input,
