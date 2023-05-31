@@ -1,14 +1,27 @@
 import styled from "styled-components";
 
 export const FooterWrap = styled.div`
+a{
+  text-decoration: none;
+}
   .foot {
   text-align: left;
   background-color: #000000;
   color: #bdc2ca;
   padding: 25px 10px 10px 10px;
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 900;
   /* margin-top: 20px; */
 }
+
+.last_p{
+  color: #bdc2ca;
+}
+
+.last_p:hover{
+  color: #ffffff;
+}
+
 .foot_flex {
   display: flex;
   flex-direction: row;
@@ -81,7 +94,7 @@ p.last_p {
   padding-top: 10px;
   text-align: center;
   font-weight: 900;
-  font-size: 10px;
+  font-size: 14px;
   color: #ffffff;
   border-top: #bdc2ca;
 }
