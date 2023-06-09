@@ -6,12 +6,12 @@ export const HomePageWrap = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 8.5rem;
+    padding-top: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("../components/assets/images/hero.jpg");
       background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${hero});
     width: 100vw;
-    height: 55vh;
+    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Archivo Narrow", sans-serif;

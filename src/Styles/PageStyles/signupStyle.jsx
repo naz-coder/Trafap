@@ -4,7 +4,7 @@ import login_hero from "../../components/assets/images/login_hero.jpg"
 export const SignUpWrap = styled.div`
   .signup {
   /* float: right; */
-  padding: 7rem 0rem 0.1rem 0rem;
+  padding: 20rem 0rem;
   font-weight: 900;
   text-align: center;
   color: #000000;
@@ -17,7 +17,6 @@ export const SignUpWrap = styled.div`
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 2rem;
 }
 
 .user_signup {

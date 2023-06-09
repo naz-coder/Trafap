@@ -8,7 +8,7 @@ a{
   text-align: left;
   background-color: #000000;
   color: #bdc2ca;
-  padding: 25px 10px 10px 10px;
+  padding: 45px 10px 10px 10px;
   font-size: 15px;
   font-weight: 900;
   /* margin-top: 20px; */
