@@ -23,7 +23,7 @@ const nav = () => {
         <ul>
           <li className="menu-item">
             <Link to={`/login`} className="log_in">
-              <p>Login</p>
+              <p className="login_option">Login</p>
             </Link>
           </li>
           <li className="menu-item">
@@ -34,19 +34,6 @@ const nav = () => {
         </ul>
       </div>
       <DropdownMenu />
-
-      {/* <div className="nav_end">
-        <ul>
-          <li className="menu-item">
-            <Link to={`Login`}>Login</Link>
-          </li>
-          <li className="menu-item">
-            <Link to={`signup`}>
-              <Signup />
-            </Link>
-          </li>
-        </ul>
-      </div> */}
     </div>
     </HomeNavWrap>
   );

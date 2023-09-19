@@ -1,21 +1,24 @@
 import styled from 'styled-components';
 
 export const GenButton = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+
 .gen_btn {
   margin-bottom: 7rem;
   text-align: left;
-  padding-left: 12rem;
 }
 
 .gen_btn button {
-  width: 6rem;
-  height: 2.5rem;
-  border-radius: 20px;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
   border: 1px solid #1f4690;
   background-color: #1f4690;
   color: #ffffff;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 17px;
   padding-bottom: 2px;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
@@ -29,8 +32,7 @@ button:hover {
   background-position: left bottom;
   cursor: pointer;
   opacity: 0.9;
-  translate: 5s;
-  color: #000000;
+  transition: all 0.5s ease-in-out;
 }
 
 /* MEDIA QUERY */
@@ -53,7 +55,7 @@ button:hover {
 
 export const SignupButton = styled.div`
 button {
-  width: 4.5vw;
+  width: 6.5vw;
   height: 5vh;
   border-radius: 7px;
   border: 1px solid #efb700;
@@ -62,6 +64,7 @@ button {
   font-weight: 900;
   padding-bottom: 2px;
   margin-right: 20px;
+  font-size: 1.1rem;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;

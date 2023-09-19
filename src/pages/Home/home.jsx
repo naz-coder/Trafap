@@ -12,6 +12,7 @@ const home = () => {
     <HomePageWrap>
       <div className="landing">
       <Nav_Home />
+      <div className="hero_container">
       <div className="hero">
         <div className="flex_left">
           <h3>
@@ -22,12 +23,15 @@ const home = () => {
         </div>
         {SearchRouteData.map((item) => {
           return(
-            <div className="flex_right" key={item.key}>
+            <div className="route_search">
+              <div className="flex_right" key={item.key}>
               <input type={item.dataType} name={item.name} placeholder={item.placeholder}/>
               <button className="hom_btn">Search</button>
             </div>
+            </div>
           )
         })}
+      </div>
       </div>
       <Slide />
       <Btn_Glob />

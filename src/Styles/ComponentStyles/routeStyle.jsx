@@ -2,14 +2,13 @@ import styled from "styled-components";
 
 export const RouteWrap = styled.div`
   .route input {
-  width: 25vw;
-  height: 4vh;
+  width: 24vw;
+  height: 3rem;
   border-radius: 10px 0 0 10px;
   border: 1px solid #aeb1b3;
-  padding-bottom: 2px;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
@@ -25,15 +24,15 @@ export const RouteWrap = styled.div`
 }
 
 .route button {
-  width: 5vw;
-  height: 5vh;
+  width: 6vw;
+  height: 3.2rem;
+  padding-top: 0.3rem;
   border-radius: 0 10px 10px 0;
   border: 1px solid #222222;
   background-color: #222222;
   color: #ffe5b4;
+  font-size: 1rem;
   font-weight: 900;
-  /* padding-bottom: 2px; */
-  padding-top: 4px;
   font-family: "Archivo Narrow", sans-serif;
   font-family: "Fira Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
@@ -57,8 +56,8 @@ button:hover {
     width: 22vw;
   }
   .route input::placeholder {
-    padding-left: 10px;
-    font-size: 12px;
+    /* padding-left: 1px; */
+    font-size: 15px;
   }
 
   .route button {
@@ -71,11 +70,10 @@ button:hover {
     width: 50vw;
     height: 4vh;
     border-radius: 10px 10px 10px 10px;
-    /* margin-right: 4.5vw; */
   }
 
   .route input::placeholder {
-    padding-left: 8px;
+    padding-left: 1px;
   }
 
   .route button.hidden {
@@ -90,12 +88,6 @@ button:hover {
     margin-left: 11vw;
     border-radius: 10px 10px 10px 10px;
   }
-
-  /* .route input::placeholder {
-    padding-left: 2px;
-    font-size: small;
-    color: #b5bb66;
-  } */
 
   .route button.hidden {
     display: none;

@@ -19,38 +19,33 @@ export const HomePageWrap = styled.div`
     font-family: "Josefin Sans", sans-serif;
     font-family: "Zen Kurenaido", sans-serif;
   }
-.flex_left {
-  padding-left: 20px;
-}
 
 .flex_left h3 {
   width: 38vw;
-  font-size: 35px;
+  font-size: 50px;
   font-weight: 900;
   color: #ffffff;
 }
 
 .flex_left p {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 900;
-  /* color: #aeb1b3; */
   color: #efb700;
 }
 
 .flex_right {
   display: flex;
   flex-direction: column;
-  padding-top: 22px;
-  padding-right: 20px;
+  padding-top: 25px;
 }
 
 .flex_right input {
-  width: 24.1vw;
+  width: 28rem;
   height: 6vh;
   border-radius: 7px;
   border: 1px solid #aeb1b3;
   padding-bottom: 2px;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   font-size: 1.1rem;
   font-weight: 900;
   font-family: "Archivo Narrow", sans-serif;
@@ -68,7 +63,7 @@ export const HomePageWrap = styled.div`
 }
 
 .flex_right button {
-  width: 25vw;
+  width: 29rem;
   height: 6vh;
   border-radius: 7px;
   border: 1px solid #efb700;
@@ -98,11 +93,39 @@ export const HomePageWrap = styled.div`
   outline: none;
 }
 
+
 /* MEDIA QUERY */
+@media (max-width: 1500px){
+  .hero {
+    height: 55vh;
+  }
+
+  .flex_left h3 {
+  font-size: 45px;
+}
+
+.flex_right input {
+  width: 24rem;
+}
+
+.flex_right button {
+  width: 25rem;
+}
+
+}
+
+@media (max-width: 1024px){
+  .flex_left h3 {
+  font-size: 35px;
+}
+
+}
+
+
 @media (max-width: 960px) {
   .hero {
-    padding-top: 8.5rem;
-    height: 55vh;
+    padding-top: 10.5rem;
+    height: 40vh;
   }
 
   .flex_left {
@@ -114,7 +137,7 @@ export const HomePageWrap = styled.div`
   }
 
   .flex_left p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -123,75 +146,61 @@ export const HomePageWrap = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 11.4rem;
+    padding-top: 8rem;
     height: 60vh;
   }
 
   .flex_left {
     text-align: center;
-    margin-bottom: 9rem;
-    /* consider removing the margin-left below */
-    margin-left: -15px;
+    margin-bottom: 3rem;
   }
 
   .flex_right {
     display: flex;
     flex-direction: column;
     margin-bottom: 27px;
-    padding-left: 32px;
+    /* padding-left: 32px; */
   }
 
   .flex_left h3 {
     width: 73vw;
-    font-size: 28px;
-    font-weight: 900;
+    font-size: 33px;
+  }
+
+  .flex_left p {
+    font-size: 25px;
   }
 
   .flex_right input {
-    width: 38vw;
-    height: 6vh;
     margin-top: -180px;
-    /* margin-top: -12rem; */
-  }
-
-  .flex_right button {
-    width: 39.2vw;
-    height: 6vh;
   }
 }
 
 @media (max-width: 425px) {
   .hero {
-    padding-top: 11.4rem;
-    height: 55vh;
+    padding-top: 8rem;
+    height: 60vh;
   }
-
-  /* .flex_right {
-    padding-left: 20px;
-  } */
 
   .flex_left h3 {
     width: 85vw;
   }
 
   .flex_right input {
-    width: 75vw;
-    height: 6vh;
-    margin-top: -180px;
-    /* margin-top: -12rem; */
-  }
+  width: 20rem;
+  margin-top: -140px;
+}
 
-  .flex_right button {
-    width: 78vw;
-    height: 6vh;
-    margin-left: 0rem;
-  }
+.flex_right button {
+  width: 21rem;
+}
+
 }
 
 @media (max-width: 320px) {
   .hero {
-    padding-top: 11.4rem;
-    height: 52vh;
+    padding-top: 8rem;
+    height: 50vh;
   }
 
   .flex_left h3 {
@@ -200,20 +209,17 @@ export const HomePageWrap = styled.div`
     font-weight: 900;
   }
 
-  .flex_right {
-    padding-left: 25px;
+  .flex_left p {
+    font-size: 18px;
   }
 
   .flex_right input {
-    width: 75vw;
-    height: 6vh;
-    margin-top: -200px;
-    /* margin-top: -12rem; */
+    width: 15rem;
+    margin-top: -145px;
   }
 
   .flex_right button {
-    width: 78vw;
-    height: 6vh;
+    width: 16rem;
   }
 }
 

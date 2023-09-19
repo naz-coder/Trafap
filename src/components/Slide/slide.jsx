@@ -16,7 +16,7 @@ const slide = () => {
       <div className="cards_top">
         {/* card one */}
         {TrafficUpdateData.map((item, index) => 
-          <div className="card one" key={item.id}>
+          <div className="card" key={item.id}>
           <div className="location">
             <h2 name={item.name}>{item.location.address}</h2>
           </div>

@@ -11,7 +11,6 @@ a{
   padding: 45px 10px 10px 10px;
   font-size: 15px;
   font-weight: 900;
-  /* margin-top: 20px; */
 }
 
 .last_p{
@@ -48,7 +47,6 @@ a{
 
 .foot_item:hover{
   cursor: pointer;
-  /* font-weight: 900; */
 }
 
 .foot_item p {
@@ -72,6 +70,7 @@ p.last_p {
 .social_icons a{
   text-decoration: none;
   color: #ffffff;
+  padding-right: 0.5rem;
 }
 
 .whatsapp:hover {

@@ -43,6 +43,7 @@ export const GenNavWrap = styled.div`
   color: #ffffff;
 }
 
+
 /* MEDIA QUERY */
 @media (max-width: 960px) {
   .nav_route input {
@@ -103,10 +104,6 @@ export const HomeNavWrap = styled.div`
   padding: 15px 10px 15px 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
   align-items: center;
   background-color: #1f4690;
   width: 100vw;
@@ -136,13 +133,8 @@ export const HomeNavWrap = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-right: 1vw;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; */
   align-items: center;
-  
 }
-
 
 .nav_end ul:nth-child(1) {
   margin-left: 22vw;
@@ -153,8 +145,10 @@ export const HomeNavWrap = styled.div`
 }
 
 .nav_end ul li p {
-  color: #bdc2ca;
+  color: #ffffff;
   font-weight: 900;
+  font-size: 1.3rem;
+padding-right: 0.8rem;
 }
 
 .nav_end ul li p:hover {

@@ -4,7 +4,6 @@ export const SlideWrap = styled.div`
   .slide {
   margin-top: 50px;
   text-align: center;
-  
 }
 
 .title h2 {
@@ -17,7 +16,6 @@ export const SlideWrap = styled.div`
 .cards_top{
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
   justify-content: space-evenly;
   text-align: left;
   
@@ -35,14 +33,11 @@ export const SlideWrap = styled.div`
 }
 
 .card {
-  /* width: 15vw;
-  height: 34vh; */
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   border: 1.5px solid #e9ebec;
   border-radius: 10px;
-  /* margin-bottom: 3rem; */
-  margin: 0 5rem 3rem 5rem;
+  margin: 0 3rem 4rem 3rem;
   background-color: #e9ebec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -52,12 +47,11 @@ export const SlideWrap = styled.div`
   opacity: 0.8;
   transition: 0.5s;
 }
+
 .location {
   border: 1.5px solid #e9ebec;
   border-radius: 10px;
-  padding-bottom: 4px;
-  padding-left: 10px;
-  margin-top: 1px;
+  padding: 1rem;
   background-color: #e9ebec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 12px;
@@ -65,46 +59,43 @@ export const SlideWrap = styled.div`
 }
 
 .slide p {
-  padding-left: 10px;
+  padding: 0 0 0.5rem 1rem;
   font-size: 16px;
 }
+
 .traffic_height {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
-  /* padding-left: 10px; */
 }
 
 .traffic_status {
   font-weight: 900;
-  margin-top: 10px;
+  margin-top: 1.5rem;
 }
 
 .traffic_high {
   font-weight: 900;
-  margin-top: 10px;
-  /* padding-left: 10px; */
+  margin-top: 1.5rem;
   color: #ff0000;
 }
 
 .traffic_mid {
   font-weight: 900;
-  margin-top: 10px;
+  margin-top: 1.5rem;
   color: #efb700;
 }
 
 .traffic_low {
   font-weight: 900;
-  margin-top: 10px;
+  margin-top: 1.5rem;
   color: #297a18;
 }
 
 .user_action {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 15px;
-  margin-left: -35px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 5rem; */
+  margin: 1rem 0rem 2rem 1rem;
 }
 
 .user_action button {
@@ -114,15 +105,13 @@ export const SlideWrap = styled.div`
   border: 1px solid #efb700;
   background-color: #efb700;
   border-radius: 20px;
-  padding-top: 4px;
-  margin-left: 30px;
-  margin-right: 60px;
 }
 
 .action_flex_right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* float: right; */
 }
 
 .icon {
@@ -150,12 +139,16 @@ export const SlideWrap = styled.div`
     justify-self: center;
   }
 
+  .cards_top{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   .card {
-    /* width: 15vw;
-    height: 34vh; */
     align-self: center;
     width: 20rem;
-    height: 16.5rem;
+    height: 22rem;
     margin-bottom: 3rem;
 
   }
@@ -172,48 +165,48 @@ export const SlideWrap = styled.div`
 
   .traffic_status {
     font-weight: 900;
-    margin-top: 10px;
   }
 
   .user_action {
-    margin-top: 20px;
-    margin-left: -80px;
+    margin: 1rem 0rem 2rem 1rem;
+
   }
 
-  .user_action button {
-    margin-left: 70px;
-    margin-right: 150px;
-  }
-}
-
-@media (max-width: 479px) {
-  .card {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    align-self: center;
-    width: 20rem;
-    height: 16.5rem;
-    margin-bottom: 3rem;
-  }
-
- 
 }
 
 @media (max-width: 425px) {
-}
-
-@media (max-width: 320px) {
   .card {
-    width: 16rem;
-    height: 16rem;
+    width: 20rem;
+    height: 22rem;
+    margin-left: 1.8rem;
   }
 
   .card p {
     font-size: 17px;
   }
   .user_action button {
-    margin-left: 80px;
+    margin-left: 0px;
     margin-right: 100px;
   }
 }
+
+/* @media (max-width: px) {
+} */
+
+@media (max-width: 320px) {
+  .card {
+    width: 16rem;
+    height: 21rem;
+    margin-left: 2rem;
+  }
+
+  .card p {
+    font-size: 17px;
+  }
+  .user_action button {
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+}
+
 `
